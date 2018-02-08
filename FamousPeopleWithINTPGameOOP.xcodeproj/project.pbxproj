@@ -66,10 +66,10 @@
 			isa = PBXGroup;
 			children = (
 				5891897D202C73ED000BF04A /* main.swift */,
-				5891898A202C7C95000BF04A /* IntpPersonality.swift */,
 				58918984202C744C000BF04A /* INTP.swift */,
 				58918988202C7650000BF04A /* INTPDetail.swift */,
 				58918986202C7569000BF04A /* UserInput.swift */,
+				5891898A202C7C95000BF04A /* IntpPersonality.swift */,
 			);
 			path = FamousPeopleWithINTPGameOOP;
 			sourceTree = "<group>";

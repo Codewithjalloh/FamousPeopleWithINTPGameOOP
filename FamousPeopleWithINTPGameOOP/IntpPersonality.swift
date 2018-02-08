@@ -30,7 +30,7 @@ class IntpPersonality {
     
     private func greetPerson() {
         let name = responseToThePrompt(prompt: "What is your name?")
-        print("Nice to meet you, \(name). Name is David, I also have the INTP Personality Trait :)")
+        print("Nice to meet you, \(name). My Name is SiriX11, I also have the INTP Personality Trait :)")
     }
     
     private func explore(peopleName: String) {

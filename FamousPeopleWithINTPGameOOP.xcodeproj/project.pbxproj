@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		5891897E202C73ED000BF04A /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5891897D202C73ED000BF04A /* main.swift */; };
 		58918985202C744C000BF04A /* INTP.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58918984202C744C000BF04A /* INTP.swift */; };
+		58918987202C7569000BF04A /* UserInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58918986202C7569000BF04A /* UserInput.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -27,6 +28,7 @@
 		5891897A202C73ED000BF04A /* FamousPeopleWithINTPGameOOP */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = FamousPeopleWithINTPGameOOP; sourceTree = BUILT_PRODUCTS_DIR; };
 		5891897D202C73ED000BF04A /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		58918984202C744C000BF04A /* INTP.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = INTP.swift; sourceTree = "<group>"; };
+		58918986202C7569000BF04A /* UserInput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserInput.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +63,7 @@
 			children = (
 				5891897D202C73ED000BF04A /* main.swift */,
 				58918984202C744C000BF04A /* INTP.swift */,
+				58918986202C7569000BF04A /* UserInput.swift */,
 			);
 			path = FamousPeopleWithINTPGameOOP;
 			sourceTree = "<group>";
@@ -124,6 +127,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				58918985202C744C000BF04A /* INTP.swift in Sources */,
+				58918987202C7569000BF04A /* UserInput.swift in Sources */,
 				5891897E202C73ED000BF04A /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

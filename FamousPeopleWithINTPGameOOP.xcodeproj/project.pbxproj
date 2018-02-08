@@ -10,6 +10,7 @@
 		5891897E202C73ED000BF04A /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5891897D202C73ED000BF04A /* main.swift */; };
 		58918985202C744C000BF04A /* INTP.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58918984202C744C000BF04A /* INTP.swift */; };
 		58918987202C7569000BF04A /* UserInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58918986202C7569000BF04A /* UserInput.swift */; };
+		58918989202C7650000BF04A /* INTPDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58918988202C7650000BF04A /* INTPDetail.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -29,6 +30,7 @@
 		5891897D202C73ED000BF04A /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		58918984202C744C000BF04A /* INTP.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = INTP.swift; sourceTree = "<group>"; };
 		58918986202C7569000BF04A /* UserInput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserInput.swift; sourceTree = "<group>"; };
+		58918988202C7650000BF04A /* INTPDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = INTPDetail.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 			children = (
 				5891897D202C73ED000BF04A /* main.swift */,
 				58918984202C744C000BF04A /* INTP.swift */,
+				58918988202C7650000BF04A /* INTPDetail.swift */,
 				58918986202C7569000BF04A /* UserInput.swift */,
 			);
 			path = FamousPeopleWithINTPGameOOP;
@@ -127,6 +130,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				58918985202C744C000BF04A /* INTP.swift in Sources */,
+				58918989202C7650000BF04A /* INTPDetail.swift in Sources */,
 				58918987202C7569000BF04A /* UserInput.swift in Sources */,
 				5891897E202C73ED000BF04A /* main.swift in Sources */,
 			);

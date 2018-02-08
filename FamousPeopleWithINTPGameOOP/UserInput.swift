@@ -14,7 +14,7 @@ func getTheUserInput() -> String {
     let standardInput = FileHandle.standardInput
     var input = NSString(data: standardInput.availableData, encoding: String.Encoding.utf8.rawValue)
     
-    input = input!.trimmingCharacters(in: CharacterSet.newlines) as String
+    input = input!.trimmingCharacters(in: CharacterSet.newlines) as NSString
     
     return input! as String
 }

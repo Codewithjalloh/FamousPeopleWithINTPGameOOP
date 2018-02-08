@@ -9,6 +9,7 @@
 import Foundation
 
 class IntpPersonality {
+    
     let intpInfo:INTPDetail
     
     init(intpInfo:INTPDetail) {
@@ -27,8 +28,51 @@ class IntpPersonality {
         return getTheUserInput()
     }
     
+    private func greetPerson() {
+        let name = responseToThePrompt(prompt: "What is your name?")
+        print("Nice to meet you, \(name). Name is David, I also have the INTP Personality Trait :)")
+    }
     
+    private func explore(peopleName: String) {
+        print("Exploring \(peopleName)")
+        
+        for person in intpInfo.intpPeople {
+            if peopleName == person.name {
+                print("My Name is \(person.name). \(person.description)")
+            }
+        }
+    }
     
+    private func determinOptions() {
+        var decision = ""
+        while !(decision == "Y" || decision == "N") {
+            decision = responseToThePrompt(prompt: "Shall I random choose a person to explore (Y or N)")
+            
+            
+            if decision == "Y" {
+                if let person = intpInfo.randomINTPPerson {
+                    explore(peopleName: person.name)
+                } else {
+                    print("cannot find this person")
+                }
+            } else if decision == "N" {
+                let personName = responseToThePrompt(prompt: "Ok name the person you want to explore")
+                explore(peopleName: personName)
+            } else {
+                print("cannot find you")
+            }
+            
+        }
+    }
+
+    func start() {
+        displayIntro()
+        greetPerson()
+        if !intpInfo.intpPeople.isEmpty {
+            print("lets go and explore INTP Personality Trait")
+            determinOptions()
+        }
+    }
     
     
 }
